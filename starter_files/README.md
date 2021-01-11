@@ -5,26 +5,26 @@ This project comes as an important milestone of the udacity Azure ML nanodegree 
 ![alt text](https://github.com/ahmedkhammessi/nd00333_AZMLND_C2/blob/master/architecture.jpg)
 
 ## Key Steps
-**1- Upload Bank Marketing Dataset
+**1- Upload Bank Marketing Dataset**
 ![alt text](https://github.com/ahmedkhammessi/nd00333_AZMLND_C2/blob/master/registered_dataset.PNG)
-**2- Create and Execute an Auto ML Experiment
+**2- Create and Execute an Auto ML Experiment**
 ![alt text](https://github.com/ahmedkhammessi/nd00333_AZMLND_C2/blob/master/completed_experiment.PNG)
-**3- Verify the best model
+**3- Verify the best model**
 ![alt text](https://github.com/ahmedkhammessi/nd00333_AZMLND_C2/blob/master/best_model.PNG)
-**4- Deploy the best model and enable Application Insights
+**4- Deploy the best model and enable Application Insights**
 ![alt text](https://github.com/ahmedkhammessi/nd00333_AZMLND_C2/blob/master/endpoint-appinsights-logs.PNG)
 ![alt text](https://github.com/ahmedkhammessi/nd00333_AZMLND_C2/blob/master/applicationinsights-enabled.PNG)
-**5- Run Swagger
+**5- Run Swagger**
 ![alt text](https://github.com/ahmedkhammessi/nd00333_AZMLND_C2/blob/master/swagger_screenshot1.PNG)
 ![alt text](https://github.com/ahmedkhammessi/nd00333_AZMLND_C2/blob/master/swagger_screenshot2.PNG)
-**6- Consume the deployed model
+**6- Consume the deployed model**
 ![alt text](https://github.com/ahmedkhammessi/nd00333_AZMLND_C2/blob/master/endpoint-script-screenshot1.PNG)
 ![alt text](https://github.com/ahmedkhammessi/nd00333_AZMLND_C2/blob/master/endpoint-script-screenshot2.PNG)
-**7- Create the pipeline
+**7- Create the pipeline**
 ![alt text](https://github.com/ahmedkhammessi/nd00333_AZMLND_C2/blob/master/pipleine-created.PNG)
-**8- Publish the pipeline
+**8- Publish the pipeline**
 ![alt text](https://github.com/ahmedkhammessi/nd00333_AZMLND_C2/blob/master/pipline-dataset-model.PNG)
-**9- Consume the pipeline
+**9- Consume the pipeline**
 ![alt text](https://github.com/ahmedkhammessi/nd00333_AZMLND_C2/blob/master/pipline-restendpoint-publish.PNG)
 ![alt text](https://github.com/ahmedkhammessi/nd00333_AZMLND_C2/blob/master/pipline-active.PNG)
 
