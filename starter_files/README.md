@@ -5,10 +5,28 @@ This project comes as an important milestone of the udacity Azure ML nanodegree 
 ![alt text](https://github.com/ahmedkhammessi/nd00333_AZMLND_C2/blob/master/architecture.jpg)
 
 ## Key Steps
-*TODO*: Write a short discription of the key steps. Remeber to include all the screenshots required to demonstrate key steps. 
+1- Upload Bank Marketing Dataset
+![alt text](https://github.com/ahmedkhammessi/nd00333_AZMLND_C2/blob/master/registered_dataset.png)
+2- Create and Execute an Auto ML Experiment
+![alt text](https://github.com/ahmedkhammessi/nd00333_AZMLND_C2/blob/master/completed_experiment.png)
+3- Verify the best model
+![alt text](https://github.com/ahmedkhammessi/nd00333_AZMLND_C2/blob/master/best_model.png)
+4- Deploy the best model and enable Application Insights
+![alt text](https://github.com/ahmedkhammessi/nd00333_AZMLND_C2/blob/master/endpoint-appinsights-logs.png)
+![alt text](https://github.com/ahmedkhammessi/nd00333_AZMLND_C2/blob/master/applicationinsights-enabled.png)
+5- Run Swagger
+![alt text](https://github.com/ahmedkhammessi/nd00333_AZMLND_C2/blob/master/swagger_screenshot1.png)
+![alt text](https://github.com/ahmedkhammessi/nd00333_AZMLND_C2/blob/master/swagger_screenshot2.png)
+6- Consume the deployed model
+![alt text](https://github.com/ahmedkhammessi/nd00333_AZMLND_C2/blob/master/endpoint-script-screenshot1.png)
+![alt text](https://github.com/ahmedkhammessi/nd00333_AZMLND_C2/blob/master/endpoint-script-screenshot2.png)
+7- Create the pipeline
+![alt text](https://github.com/ahmedkhammessi/nd00333_AZMLND_C2/blob/master/pipleine-created.png)
+8- Publish the pipeline
+![alt text](https://github.com/ahmedkhammessi/nd00333_AZMLND_C2/blob/master/pipline-dataset-model.png)
+9- Consume the pipeline
+![alt text](https://github.com/ahmedkhammessi/nd00333_AZMLND_C2/blob/master/pipline-restendpoint-publish.png)
+![alt text](https://github.com/ahmedkhammessi/nd00333_AZMLND_C2/blob/master/pipline-active.png)
 
 ## Screen Recording
-*TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
-
-## Standout Suggestions
-*TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
+https://youtu.be/PcUG8OZpQ5E
