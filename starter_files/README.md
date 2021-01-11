@@ -6,25 +6,36 @@ This project comes as an important milestone of the udacity Azure ML nanodegree 
 
 ## Key Steps
 **1- Upload Bank Marketing Dataset**
+During this initialization step, We will upload the dataset that the experiment will run against.
 ![alt text](https://github.com/ahmedkhammessi/nd00333_AZMLND_C2/blob/master/registered_dataset.PNG)
 **2- Create and Execute an Auto ML Experiment**
+To prepare for this step the creation of the compute cluster is needed. We see the result of running the experiment using Classification.
 ![alt text](https://github.com/ahmedkhammessi/nd00333_AZMLND_C2/blob/master/completed_experiment.PNG)
 **3- Verify the best model**
+The result of running the experiment comes down to fing the best model as shown in the screenshot.
 ![alt text](https://github.com/ahmedkhammessi/nd00333_AZMLND_C2/blob/master/best_model.PNG)
 **4- Deploy the best model and enable Application Insights**
+Although enabling the Application insights can be done within the previous step already, It's allways good to have the script option like shown here.
 ![alt text](https://github.com/ahmedkhammessi/nd00333_AZMLND_C2/blob/master/endpoint-appinsights-logs.PNG)
+
+Here we can see that the Application Insights has been enabled and the model has been deployed successfuly.
 ![alt text](https://github.com/ahmedkhammessi/nd00333_AZMLND_C2/blob/master/applicationinsights-enabled.PNG)
 **5- Run Swagger**
+Azure ML studio provides the Swagger JSON file that we downloaded and expored by running swagger from a docker container on our local machine.
 ![alt text](https://github.com/ahmedkhammessi/nd00333_AZMLND_C2/blob/master/swagger_screenshot1.PNG)
 ![alt text](https://github.com/ahmedkhammessi/nd00333_AZMLND_C2/blob/master/swagger_screenshot2.PNG)
 **6- Consume the deployed model**
+During this step, We will interact with the deployed model via HTTP requests and to do that the first step is to actually grab the URL and the primary key form the deployed model.
 ![alt text](https://github.com/ahmedkhammessi/nd00333_AZMLND_C2/blob/master/endpoint-script-screenshot1.PNG)
 ![alt text](https://github.com/ahmedkhammessi/nd00333_AZMLND_C2/blob/master/endpoint-script-screenshot2.PNG)
 **7- Create the pipeline**
+We reach the step of creating an automated pipeline, The Jupyter notebook need to be uploaded and ran all the cells after entering the correct values to the placeholders
 ![alt text](https://github.com/ahmedkhammessi/nd00333_AZMLND_C2/blob/master/pipleine-created.PNG)
 **8- Publish the pipeline**
+The Azure ML studio provides a section to list the available pipline and that's where we can publish the endpoint with the trained model from the completed run.
 ![alt text](https://github.com/ahmedkhammessi/nd00333_AZMLND_C2/blob/master/pipline-dataset-model.PNG)
 **9- Consume the pipeline**
+Once published we can authenticated and retrieve the endpoint URL to communicate via http request or the SDK.
 ![alt text](https://github.com/ahmedkhammessi/nd00333_AZMLND_C2/blob/master/pipline-restendpoint-publish.PNG)
 ![alt text](https://github.com/ahmedkhammessi/nd00333_AZMLND_C2/blob/master/pipline-active.PNG)
 
