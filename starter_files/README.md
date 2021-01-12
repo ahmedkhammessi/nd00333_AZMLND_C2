@@ -1,5 +1,7 @@
-# Your Project Title Here
-This project comes as an important milestone of the udacity Azure ML nanodegree path, Tackling essentialy the Machine Learning Operations. The main goal of the ML model is to predict the clients that will be mostly engaged by a marketing campaign for the bank. On the techincal side of things, I will start by uploading the dataset, Create the experiment and publish and endpoint with the best model configured.
+# Operationalising ML Pipeline
+This project comes as an important milestone of the udacity Azure ML nanodegree path, Tackling essentialy the Machine Learning Operations. The main goal of the ML model is to predict the clients that will be mostly engaged by a marketing campaign for the bank. On the techincal side of things, I will start by uploading the dataset, Create the experiment and get the best model, finally create and publish a pipeline.
+
+During this project, The Auto ML experiment will be using classication to predict the value of the class 'Y' refering to being a potential client or not.
 
 ## Architectural Diagram
 ![alt text](https://github.com/ahmedkhammessi/nd00333_AZMLND_C2/blob/master/architecture.jpg)
@@ -7,6 +9,7 @@ This project comes as an important milestone of the udacity Azure ML nanodegree 
 ## Key Steps
 **1- Upload Bank Marketing Dataset**
 During this initialization step, We will upload the dataset that the experiment will run against.
+![alt text](https://github.com/ahmedkhammessi/nd00333_AZMLND_C2/blob/master/registered_dataset1.PNG)
 ![alt text](https://github.com/ahmedkhammessi/nd00333_AZMLND_C2/blob/master/registered_dataset.PNG)
 **2- Create and Execute an Auto ML Experiment**
 To prepare for this step the creation of the compute cluster is needed. We see the result of running the experiment using Classification.
