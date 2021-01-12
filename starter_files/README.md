@@ -48,7 +48,7 @@ Once published we can authenticated and retrieve the endpoint URL to communicate
 
 ## Screen Recording
 https://youtu.be/PcUG8OZpQ5E
-after the review - screencast part 2:
+after the review - screencast part 2: 
 https://youtu.be/agwcWmjwBn8
 
 ## Improvements
