@@ -31,9 +31,13 @@ Azure ML studio provides the Swagger JSON file that we downloaded and expored by
 During this step, We will interact with the deployed model via HTTP requests and to do that the first step is to actually grab the URL and the primary key form the deployed model.
 ![alt text](https://github.com/ahmedkhammessi/nd00333_AZMLND_C2/blob/master/endpoint-script-screenshot1.PNG)
 ![alt text](https://github.com/ahmedkhammessi/nd00333_AZMLND_C2/blob/master/endpoint-script-screenshot2.PNG)
+
 **7- Create the pipeline**
 We reach the step of creating an automated pipeline, The Jupyter notebook need to be uploaded and ran all the cells after entering the correct values to the placeholders
 ![alt text](https://github.com/ahmedkhammessi/nd00333_AZMLND_C2/blob/master/pipleine-created.PNG)
+
+and this is the screenshot of the rundetails
+![alt text](https://github.com/ahmedkhammessi/nd00333_AZMLND_C2/blob/master/rundetails_showdetails.PNG)
 **8- Publish the pipeline**
 The Azure ML studio provides a section to list the available pipline and that's where we can publish the endpoint with the trained model from the completed run.
 ![alt text](https://github.com/ahmedkhammessi/nd00333_AZMLND_C2/blob/master/pipline-dataset-model.PNG)
@@ -44,3 +48,9 @@ Once published we can authenticated and retrieve the endpoint URL to communicate
 
 ## Screen Recording
 https://youtu.be/PcUG8OZpQ5E
+after the review - screencast part 2:
+https://youtu.be/agwcWmjwBn8
+
+## Improvements
+
+In general the current specifics of the Auto ML experiment are decent since we've got a high accuracy level 0.94796 , Nevertheless we can improve by using the deeplearning mechanisme and for that we will need to increase the allowed run duration and the compute power to get faster results. 
