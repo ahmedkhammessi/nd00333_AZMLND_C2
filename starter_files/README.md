@@ -41,6 +41,10 @@ and this is the screenshot of the rundetails
 **8- Publish the pipeline**
 The Azure ML studio provides a section to list the available pipline and that's where we can publish the endpoint with the trained model from the completed run.
 ![alt text](https://github.com/ahmedkhammessi/nd00333_AZMLND_C2/blob/master/pipline-dataset-model.PNG)
+
+It take a while to transit to the active state
+![alt text](https://github.com/ahmedkhammessi/nd00333_AZMLND_C2/blob/master/pipline-dataset-model.PNG)
+
 **9- Consume the pipeline**
 Once published we can authenticated and retrieve the endpoint URL to communicate via http request or the SDK.
 ![alt text](https://github.com/ahmedkhammessi/nd00333_AZMLND_C2/blob/master/pipline-restendpoint-publish.PNG)
