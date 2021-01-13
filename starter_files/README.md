@@ -53,7 +53,7 @@ We reach the step of creating an automated pipeline, The Jupyter notebook need t
 
 ![alt text](https://github.com/ahmedkhammessi/nd00333_AZMLND_C2/blob/master/pipleine-created.PNG)
 
-and this is the screenshot of the rundetails
+Run Details Widget in the Jupyter Notebook provides details such as run logs, duration, steps
 ![alt text](https://github.com/ahmedkhammessi/nd00333_AZMLND_C2/blob/master/rundetails_showdetails.PNG)
 
 **8- Publish the pipeline**
