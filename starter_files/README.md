@@ -47,7 +47,7 @@ Once published we can authenticated and retrieve the endpoint URL to communicate
 ![alt text](https://github.com/ahmedkhammessi/nd00333_AZMLND_C2/blob/master/pipline-active.PNG)
 
 ## Screen Recording
-https://youtu.be/5iaXZd03v3c
+https://youtu.be/f7XMSWWDDX4
 
 ## Improvements
 
